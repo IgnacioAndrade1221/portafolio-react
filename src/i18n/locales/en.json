@@ -1,0 +1,81 @@
+{
+  "translation": {
+    "nav": {
+      "home": "Home",
+      "experience": "Experience",
+      "skills": "Skills",
+      "projects": "Projects",
+      "education": "Education",
+      "contact": "Contact"
+    },
+    "home": {
+      "greeting": "Hi, I'm",
+      "role": "I'm a",
+      "typing_roles": [
+        "Web Developer",
+        1500,
+        "Developer",
+        1500,
+        "Programmer Analyst",
+        1500,
+        "Software Developer",
+        1500
+      ],
+      "description": "Hello, I am a computational programmer analyst, also a 5th-semester student in Computer Engineering at Duoc UC, who is very motivated by programming and constant learning.",
+      "cv_button": "Resume"
+    },
+    "experience": {
+      "title": "Experience",
+      "jobs": [
+        {
+          "title": "Programmer",
+          "company": "DIMENSION",
+          "date": "June 2025 - Present",
+          "description": "I work as a .NET programmer creating web systems and APIs for the Factory system. I use C#, .NET, and the DevExpress component manager to develop responsive and highly competitive web pages, according to the labor market demands in the Factory area."
+        },
+        {
+          "title": "Junior Software Developer",
+          "company": "Nomed",
+          "date": "March 2025 - June 2025",
+          "description": "I work as a full-stack developer, actively participating in the development of web applications using Laravel (PHP) for the backend and Vue.js with Tailwind CSS for the frontend, focusing on creating modern, efficient, and responsive interfaces. Additionally, I manage services and deployments using Docker and AWS, ensuring scalable and secure environments. I also integrate and automate workflows using tools like n8n, improving the efficiency of internal processes."
+        }
+      ]
+    },
+
+    "skills": {
+      "title": "Skills",
+      "languages": "Languages",
+      "frameworks": "Frameworks",
+      "tools": "Tools"
+    },
+    "projects": {
+      "title": "Projects",
+      "mecanografia": {
+        "title": "Typing Game",
+        "description": "This is a typing game made with pure JavaScript without frameworks."
+      },
+      "balotario": {
+        "title": "Ballot DEMO",
+        "description": "I developed a demo of a ballot system with Django for a maritime company (DICAPI), where questions are dynamically loaded from a JSON file and presented randomly to the user. The system allows two evaluation modes: a learning mode, with no time restrictions, and a drill mode, which incorporates a timed stopwatch to simulate real conditions. Upon completion, a statistical summary with the user's results is generated, facilitating performance analysis. The application is designed with a focus on usability and efficient data handling in the backend. This website is not official; it is for practice purposes only."
+      },
+      "conversor": {
+        "title": "Currency Converter",
+        "description": "Web application that converts currencies in real-time using the ExchangeRate-API. It fetches conversion values and displays them in a modern, responsive interface developed with HTML, CSS, and JavaScript."
+      }
+    },
+    "education": {
+      "title": "Education",
+      "institution": "DuocUC",
+      "date": "2023 - Present",
+      "description": "Computer Engineering student currently in the 5th semester, holding a \"Computational Programmer Analyst\" technical degree."
+    },
+    "contact": {
+      "title": "Contact",
+      "email": "Email",
+      "phone": "Phone"
+    },
+    "footer": {
+      "created_by": "Designed & Built by Ignacio Andrade"
+    }
+  }
+}

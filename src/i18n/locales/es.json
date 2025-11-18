@@ -1,0 +1,81 @@
+{
+  "translation": {
+    "nav": {
+      "home": "Menú",
+      "experience": "Experiencia",
+      "skills": "Habilidades",
+      "projects": "Proyectos",
+      "education": "Educación",
+      "contact": "Contacto"
+    },
+    "home": {
+      "greeting": "Hola, soy",
+      "role": "Soy un",
+      "typing_roles": [
+        "Desarrollador Web",
+        1500,
+        "Developer",
+        1500,
+        "Analista Programador",
+        1500,
+        "Desarrollador de Software",
+        1500
+      ],
+      "description": "Hola, soy un analista programador computacional el cual tambien es estudiante de 5to semestre en Ingenieria en informatica en Duoc UC, el cual le motiva mucho la programacion y el constante aprendizaje.",
+      "cv_button": "CV"
+    },
+    "experience": {
+      "title": "Experiencia",
+      "jobs": [
+        {
+          "title": "Programador",
+          "company": "DIMENSION",
+          "date": "Junio 2025 - Actualidad",
+          "description": "Me desempeño como programador en .NET para la creación de sistemas web y APIs para el sistema Factory. Utilizo C#, .NET y el gestor de componentes DevExpress para el desarrollo de páginas web responsivas y altamente competitivas, de acuerdo con las exigencias del mercado laboral en el área de Factory."
+        },
+        {
+          "title": "Junior Software Developer",
+          "company": "Nomed",
+          "date": "Marzo 2025 - Junio 2025",
+          "description": "Me desempeño como desarrollador full stack, participo activamente en el desarrollo de aplicaciones web utilizando Laravel (PHP) para el backend y Vue.js junto a Tailwind CSS para el frontend, enfocándome en la creación de interfaces modernas, eficientes y responsivas. Además, gestiono servicios y despliegues utilizando Docker y AWS, asegurando entornos escalables y seguros. También integro y automatizo flujos de trabajo mediante herramientas como n8n, mejorando la eficiencia de procesos internos."
+        }
+      ]
+    },
+
+    "skills": {
+      "title": "Habilidades",
+      "languages": "Lenguajes",
+      "frameworks": "Frameworks",
+      "tools": "Herramientas"
+    },
+    "projects": {
+      "title": "Proyectos",
+      "mecanografia": {
+        "title": "Mecanografía",
+        "description": "Este es un juego de mecanografía hecho con JavaScript puro sin frameworks."
+      },
+      "balotario": {
+        "title": "Balotario DEMO",
+        "description": "Desarrollé una demo de un sistema de balotario con Django para una empresa marítima (DICAPI), en el cual las preguntas se cargan dinámicamente desde un archivo JSON y se presentan de forma aleatoria al usuario. El sistema permite dos modos de evaluación: un modo aprendizaje, sin restricciones de tiempo, y un modo simulacro, que incorpora un cronómetro con tiempo límite para simular condiciones reales. Al finalizar, se genera un resumen estadístico con los resultados del usuario, facilitando el análisis del desempeño. La aplicación está diseñada con enfoque en usabilidad y manejo eficiente de datos en el backend, esta web no es oficial, es solamente para temas de practica."
+      },
+      "conversor": {
+        "title": "Conversor de divisas",
+        "description": "Aplicación web que convierte monedas en tiempo real usando la API de ExchangeRate-API. Obtiene los valores de conversión y los muestra en una interfaz moderna y responsiva, desarrollada con HTML, CSS y JavaScript."
+      }
+    },
+    "education": {
+      "title": "Educación",
+      "institution": "DuocUC",
+      "date": "2023 - Actualmente",
+      "description": "Estudiante de ingenieria Informatica actualmente cursando el 5to semestre y contando con el tecnico \"Analista Programador Computacional\""
+    },
+    "contact": {
+      "title": "Contacto",
+      "email": "Correo",
+      "phone": "N° Telefónico"
+    },
+    "footer": {
+      "created_by": "Diseñado y construido por Ignacio Andrade"
+    }
+  }  
+}
