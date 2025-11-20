@@ -43,41 +43,40 @@ export const Navbar = () => {
           href="#"
           className="text-base font-medium text-white ml-12 border-b-2 border-primary-red transition-all duration-300 hover:text-primary-red hover:border-primary-red"
         >
-          {t('nav.home')} {/* <-- Texto desde i18n */}
+          {t('nav.home')}
         </a>
         <a 
           href="#experiencia"
           className="text-base font-medium text-white ml-12 border-b-2 border-transparent transition-all duration-300 hover:text-primary-red hover:border-primary-red"
         >
-          {t('nav.experience')} {/* <-- Texto desde i18n */}
+          {t('nav.experience')}
         </a>
         <a 
           href="#skills"
           className="text-base font-medium text-white ml-12 border-b-2 border-transparent transition-all duration-300 hover:text-primary-red hover:border-primary-red"
         >
-          {t('nav.skills')} {/* <-- Texto desde i18n */}
+          {t('nav.skills')}
         </a>
         <a 
           href="#projects"
           className="text-base font-medium text-white ml-12 border-b-2 border-transparent transition-all duration-300 hover:text-primary-red hover:border-primary-red"
         >
-          {t('nav.projects')} {/* <-- Texto desde i18n */}
+          {t('nav.projects')}
         </a>
         <a 
           href="#education"
           className="text-base font-medium text-white ml-12 border-b-2 border-transparent transition-all duration-300 hover:text-primary-red hover:border-primary-red"
         >
-          {t('nav.education')} {/* <-- Texto desde i18n */}
+          {t('nav.education')}
         </a>
         <a 
           href="#contact"
           className="text-base font-medium text-white ml-12 border-b-2 border-transparent transition-all duration-300 hover:text-primary-red hover:border-primary-red"
         >
-          {t('nav.contact')} {/* <-- Texto desde i18n */}
+          {t('nav.contact')} 
         </a>
       </nav>
       
-      {/* TODO: Aquí irá el botón de menú hamburguesa para móviles */}
     </header>
   );
 };
