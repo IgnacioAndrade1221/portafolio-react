@@ -1,43 +1,28 @@
-import React, { useState, useEffect } from 'react';
-import { useTranslation } from 'react-i18next'; // Hook para traducir
+import { useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 
 export const Navbar = () => {
-  const { t } = useTranslation(); // Inicializa el hook de traducción
-
-  // --- Reemplazo de menu.js ---
-  // Lógica para ocultar el Navbar al hacer scroll hacia abajo
+  const { t } = useTranslation();
   
   const [isVisible, setIsVisible] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
 
   const controlNavbar = () => {
-    // Si la posición actual es mayor que la anterior (scrolling down)
     if (window.scrollY > lastScrollY && window.scrollY > 100) { 
       setIsVisible(false);
     } else {
       setIsVisible(true);
     }
-    setLastScrollY(window.scrollY); // Actualiza la última posición
+    setLastScrollY(window.scrollY);
   };
 
   useEffect(() => {
     window.addEventListener('scroll', controlNavbar);
     
-    // Limpia el listener cuando el componente se "desmonta"
     return () => {
       window.removeEventListener('scroll', controlNavbar);
     };
   }, [lastScrollY]);
-  // --- Fin del reemplazo de menu.js ---
-
-
-  // --- Reemplazo de header.html + style1.css ---
-  // Usamos clases de Tailwind que equivalen a tu CSS
-  // 'fixed top-0 w-full' = position: fixed, top: 0, width: 100%
-  // 'flex justify-between items-center' = display: flex, justify-content: space-between, ...
-  // 'bg-black/80 backdrop-blur-md' = background-color: rgba(0,0,0,0.8), backdrop-filter: blur(10px)
-  // 'transition-all duration-300' = transition: all 0.3s ease
-  
   return (
     <header 
       className={`
@@ -47,16 +32,12 @@ export const Navbar = () => {
         ${isVisible ? 'top-0' : '-top-24'} 
       `}
     >
-      {/* Logo */}
       <a 
         href="#" 
         className="text-2xl font-extrabold text-primary-red transition-transform duration-500 hover:scale-110"
       >
         Ignacio Andrade
       </a>
-
-      {/* Navegación */}
-      {/* Ocultamos en móvil (hidden) y mostramos en pantallas grandes (md:flex) */}
       <nav className="hidden md:flex">
         <a 
           href="#"
