@@ -21,7 +21,7 @@
         "Desarrollador de Software",
         1500
       ],
-      "description": "Hola, soy un analista programador computacional el cual tambien es estudiante de 5to semestre en Ingenieria en informatica en Duoc UC, el cual le motiva mucho la programacion y el constante aprendizaje.",
+      "description": "Desarrollador FullStack y Fundador de Startup con experiencia en el desarrollo de aplicaciones web escalables y plataformas de IA. Experiencia demostrable modernizando sistemas financieros con .NET y arquitectando soluciones SaaS con Next.js y tecnologías Cloud.",
       "cv_button": "CV"
     },
     "experience": {
@@ -31,14 +31,23 @@
           "title": "Programador",
           "company": "DIMENSION",
           "date": "Junio 2025 - Actualidad",
-          "description": "Me desempeño como programador en .NET para la creación de sistemas web y APIs para el sistema Factory. Utilizo C#, .NET y el gestor de componentes DevExpress para el desarrollo de páginas web responsivas y altamente competitivas, de acuerdo con las exigencias del mercado laboral en el área de Factory."
+          "description": [
+            "Desarrollé y optimicé APIs RESTful de alto rendimiento con .NET Core y C#, administrando la lógica de negocio esencial para el sistema de factoring.",
+            "Diseñé arquitecturas de bases de datos relacionales en SQL Server, generando procedimientos almacenados y funciones complejas para mejorar los tiempos de respuesta en consultas masivas.",
+            "Implementé interfaces dinámicas y lógica del cliente utilizando JavaScript (ES6+) puro.",
+            "Colaboré en un equipo Ágil para entregar funcionalidades sólidas, garantizando la integridad transaccional de los datos y enriqueciendo la experiencia del usuario final."
+          ]        
         },
         {
           "title": "Junior Software Developer",
           "company": "Nomed",
           "date": "Marzo 2025 - Junio 2025",
-          "description": "Me desempeño como desarrollador full stack, participo activamente en el desarrollo de aplicaciones web utilizando Laravel (PHP) para el backend y Vue.js junto a Tailwind CSS para el frontend, enfocándome en la creación de interfaces modernas, eficientes y responsivas. Además, gestiono servicios y despliegues utilizando Docker y AWS, asegurando entornos escalables y seguros. También integro y automatizo flujos de trabajo mediante herramientas como n8n, mejorando la eficiencia de procesos internos."
-        }
+          "description": [
+            "Construí aplicaciones web modernas y responsivas utilizando Vue.js y Tailwind CSS, enfocándome en la arquitectura de componentes reutilizables y mejores prácticas de UX/UI.",
+            "Gestioné entornos contenerizados usando Docker y desplegué infraestructura escalable en AWS, asegurando la alta disponibilidad de los servicios en producción.",
+            "Diseñé e implementé automatizaciones de flujo de trabajo (Workflows) integrando APIs de terceros con n8n, reduciendo significativamente la carga operativa manual del equipo.",
+            "Desarrollé el backend utilizando Laravel (PHP), creando endpoints seguros y optimizados para el consumo del frontend."
+          ]        }
       ]
     },
 
